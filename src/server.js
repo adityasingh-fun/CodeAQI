@@ -36,6 +36,6 @@ app.get('/', async (req,res)=>{
     res.render('index',{documents});
 })
 
-app.listen(process.env.PORT || 3000, function () {
-    console.log('Express app running on Port', (process.env.PORT || 3000))
+app.listen(4000, function () {
+    console.log('Express app running on Port', 4000)
 });
