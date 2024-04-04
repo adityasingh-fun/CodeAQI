@@ -15,6 +15,15 @@ const aqiSchema = new mongoose.Schema({
     AQI: {
         type: mongoose.Schema.Types.Mixed
     },
+    aqiIndia: {
+        type: mongoose.Schema.Types.Mixed
+    },
+    aqiUS: {
+        type: mongoose.Schema.Types.Mixed
+    },
+    aqiEurope: {
+        type: mongoose.Schema.Types.Mixed
+    },
     DominentPollutent: {
         type: mongoose.Schema.Types.Mixed
     },

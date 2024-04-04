@@ -78,9 +78,12 @@
             <tr>
                 <th>Status</th>
                 <th>UID</th>
-                <th>Location Name</th>
-                <th>AQI</th>
-                <th>Dominent Pollutent</th>
+                <th>Location</th>
+                <th>AQI-CN</th>
+                <th>AQI-IN</th>
+                <th>AQI-US</th>
+                <th>AQI-EU</th>
+                <th>Dominent Pollutant()</th>
                 <th>PM10</th>
                 <th>PM25</th>
                 <th>NO2</th>
@@ -111,6 +114,15 @@
                     </td>
                     <td>
                         <%= document.AQI %>
+                    </td>
+                    <td>
+                        <%= document.aqiIndia %>
+                    </td>
+                    <td>
+                        <%= document.aqiUS %>
+                    </td>
+                    <td>
+                        <%= document.aqiEurope %>
                     </td>
                     <td>
                         <%= document.DominentPollutent %>

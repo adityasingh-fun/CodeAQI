@@ -3,6 +3,9 @@ const mongoose = require('mongoose');
 const {Schema} = mongoose;
 
 const cronLogSchema = new mongoose.Schema({
+    CronName:{
+        type: String
+    },
     StartTime:{
         type: String
     },
