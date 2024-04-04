@@ -721,7 +721,7 @@ mongoose.connect('mongodb+srv://chaudharyaditya41:Z67gI1uJnrGCnHuY@cluster0.jgng
     .then(() => console.log("MongoDB36 is connected"))
     .catch(err => console.log(err))
 
-cron.schedule('*/30 * * * *', async () => {
+cron.schedule('3,33 * * * *', async () => {
     try {
         const originalUrl = 'https://api.waqi.info/feed/@80/?token=7124b219cbdffcfa7e30e4e0745bc252b445fb2f';
         console.log("Coming into cronjob 36");
